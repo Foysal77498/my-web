@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bettekka Landing Page</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 500px;
+            margin: auto;
+            border: 1px solid #333;
+            border-radius: 15px;
+            padding: 20px;
+            background: linear-gradient(180deg, #1a1a1a 0%, #000 100%);
+        }
+
+        .header-box {
+            background: #2c2c2c;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .image-grid img {
+            width: 100%;
+            border-radius: 8px;
+            border: 1px solid #444;
+        }
+
+        h1 { font-size: 24px; color: #76c7ff; margin-bottom: 5px; }
+        p { font-size: 14px; margin-bottom: 20px; }
+
+        .btn {
+            display: block;
+            background: #222;
+            border: 1px solid #76c7ff;
+            color: #76c7ff;
+            padding: 12px;
+            margin: 10px 0;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: 0.3s;
+        }
+
+        .btn:hover { background: #76c7ff; color: #000; }
+
+        .support-box {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .footer {
+            font-size: 10px;
+            color: #666;
+            margin-top: 30px;
+            border-top: 1px solid #333;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header-box">
+        Bettekka - বাংলাদেশের নাম্বার ১ সাইট
+    </div>
+
+    <!-- এখানে আপনার ছবিগুলোর লিংক বসাবেন -->
+    <div class="image-grid">
+        <img src="https://via.placeholder.com/150" alt="User">
+        <img src="https://via.placeholder.com/150" alt="User">
+        <img src="https://via.placeholder.com/150" alt="User">
+    </div>
+
+    <h1>Bettekka</h1>
+    <p>Bettekka সাইটে ঢোকার লিংক</p>
+
+    <a href="YOUR_LINK_HERE" class="btn">🔗 Official Web Link</a>
+    <a href="YOUR_LINK_HERE" class="btn">📱 Android App</a>
+    <a href="YOUR_LINK_HERE" class="btn">🍎 iOS App</a>
+
+    <div class="support-box">
+        <p>যেকোনো সমস্যার জন্য নিচের বাটনে ক্লিক করুন</p>
+        <a href="YOUR_FB_LINK" class="btn" style="border-color: #1877f2;">🔵 Facebook Online Support</a>
+        <a href="YOUR_WHATSAPP_LINK" class="btn" style="border-color: #25d366;">🟢 WhatsApp Support</a>
+    </div>
+
+    <div class="footer">
+        © COPYRIGHT 2026 - BETTEKKA TECH SOLUTIONS <br>
+        ABOUT US | TERMS | PRIVACY | SUPPORT
+    </div>
+</div>
+
+</body>
+</html>
